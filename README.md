@@ -10,10 +10,14 @@ I will use HTML to be the basic structure, meaning I will show the current life 
 I will use a couple API's to show a random card from a random TCG on the homepage including, but not limited to: the YGOPRODeck API (https://ygoprodeck.com/api-guide/), the Digimon TCG API (https://documenter.getpostman.com/view/14059948/TzecB4fH), and the Scryfall api (https://scryfall.com/docs/api).
 
 ## Sketches
-<img width="1511" height="868" alt="The screen that shows up when a game has started. There are 4 players" src="https://github.com/user-attachments/assets/e2ca9a0c-1f2b-439c-9d44-d8cbcdfc2f85" />
+This is what a freshly started game of Magic would look like:
 
+<img width="900" height="400" alt="The screen that shows up when a game has started. There are 4 players" src="https://github.com/user-attachments/assets/e2ca9a0c-1f2b-439c-9d44-d8cbcdfc2f85" />
 
-
+The top right corner is a zoomed in version of what a single player's screen will look like.
 
 ## Specification Deliverable: 
 
+- [x] Make a Dropdown for which game to play
+- [x] Connect up to 4 people on one game
+- [x] Add the "Random card" feature I mentioned in the API section
