@@ -29,7 +29,7 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] Links between pages as necessary
 - [x] Application textual content
 - [x] Placeholder for 3rd party service calls
-- [x] Application images
+- [x] Application images (The "Blue eyes White Dragon" card (this applies to placeholder for 3rd party service calls))
 - [x] Login placeholder, including user name display
 - [x] Database data placeholder showing content stored in the database
-- [x] WebSocket data placeholder showing where realtime communication will go
+- [x] WebSocket data placeholder showing where realtime communication will go (the "Real-time log: [Player 2 adjusted life points...]" on the home page)
