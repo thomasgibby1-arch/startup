@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Life Counter</title>
     <link rel="icon" href="favicon.ico" />
@@ -11,9 +10,7 @@
     <header>
       <h1>Life Counter</h1>
 
-      <!-- Navigation elements -->
       <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu>
           <li><a href="index.html">Home</a></li>
           <li><a href="play.html">Play</a></li>
@@ -23,7 +20,13 @@
       <hr />
     </header>
     <main>
-      
+      <div class="dropdown">
+        <button class="dropbtn">Which game would you like to play?</button>
+        <div class="dropdown-content">
+          <a href="#">Yu-Gi-Oh</a>
+          <a href="#">Magic</a>
+        </div>
+      </div>
     </main>
   </body>
 </html>
