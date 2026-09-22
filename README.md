@@ -7,7 +7,7 @@ I am planning on making a "life counter" that has options for different Trading 
 I will use HTML to be the basic structure, meaning I will show the current life for the players. I will use CSS to make a little animation when life goes up or down. I will use JavaScript to make extra details be available (coin flip, dice rolls etc.). Websocket will sync all players when someone's life points change. React will make me able to have there be a login.
 
 ## APIs I Will use:
-I will use a couple API's to show a random card from a random TCG on the homepage including, but not limited to: the YGOPRODeck API (https://ygoprodeck.com/api-guide/), the Digimon TCG API (https://documenter.getpostman.com/view/14059948/TzecB4fH), and the Scryfall api (https://scryfall.com/docs/api).
+I will use a couple API's to show a random card from a random TCG on the homepage including, but not limited to: the YGOPRODeck API (https://ygoprodeck.com/api-guide/) and the Scryfall api (https://scryfall.com/docs/api).
 
 ## Sketches
 This is what a freshly started game of Magic would look like:
@@ -18,8 +18,11 @@ The top right corner is a zoomed in version of what a single player's screen wil
 
 ## Specification Deliverable: 
 
-- [x] Make a Dropdown for which game to play
 - [x] Connect up to 4 people on one game
 - [x] Add the "Random card" feature I mentioned in the API section
 - [x] Implement Websocket
 - [x] Implement React
+
+## HTML Deliverable
+- [x] Make a Dropdown for which game to play
+- [x] Put the placeholders for the life in Magic and Yu-Gi-Oh
