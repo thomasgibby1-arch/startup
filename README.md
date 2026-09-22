@@ -24,5 +24,12 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] Implement React
 
 ## HTML Deliverable
-- [x] Make a Dropdown for which game to play
-- [x] Put the placeholders for the life in Magic and Yu-Gi-Oh
+- [x] HTML pages for each component of your application
+- [x] Proper use of HTML tags including BODY, NAV, MAIN, HEADER, FOOTER
+- [x] Links between pages as necessary
+- [x] Application textual content
+- [x] Placeholder for 3rd party service calls
+- [x] Application images
+- [x] Login placeholder, including user name display
+- [x] Database data placeholder showing content stored in the database
+- [x] WebSocket data placeholder showing where realtime communication will go
