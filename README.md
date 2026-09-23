@@ -1,5 +1,8 @@
 # Life counter
 
+## Actual Domain:
+https://startup.lifecounter.click/
+
 ## Elevator pitch:
 I am planning on making a "life counter" that has options for different Trading Card Games (TCGs). They can be up to four players (either in person or online).  There will be a profile that shows what TCG a user plays, how many times they have played a game, and a win rate (which includes a leaderboard).
 
