@@ -36,3 +36,15 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] Login placeholder, including user name display
 - [x] Database data placeholder showing content stored in the database
 - [x] WebSocket data placeholder showing where realtime communication will go (the "Real-time log: [Player 2 adjusted life points...]" on the home page)
+
+## CSS Deliverable
+
+- [x] Visually appealing colors and layout. No overflowing elements.
+- [x] Use of a CSS framework such as Bootstrap
+- [x] All visual elements styled using CSS
+- [x] Responsive to window resizing using flexbox and/or grid display
+- [x] Use of a imported font
+- [x] Use of different types of selectors including element, class, ID, and pseudo selectors
+
+
+
