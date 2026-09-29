@@ -54,3 +54,7 @@ footer a {
     flex: 1 100vh;
   }
 }
+
+.nav-link:hover {
+  color: rgb(0, 200, 200) !important;
+}
