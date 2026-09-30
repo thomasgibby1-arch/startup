@@ -36,6 +36,10 @@ menu .nav-item {
   padding: 0 0.3em;
 }
 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
 footer a {
   display: flex;
 }
