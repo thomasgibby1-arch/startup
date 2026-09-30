@@ -57,17 +57,3 @@ footer a {
   }
 }
 
-@media (max-width: 768px) {
-  header {
-    display: none;
-  }
-  footer {
-    display: none;
-  }
-  main {
-    flex: 1 100vh;
-  }
-}
-.nav-link:hover {
-  color: rgb(0, 200, 200);
-}
