@@ -37,7 +37,8 @@ menu .nav-item {
 }
 
 footer a {
-  float: right;
+  float: flex
+  ;
 }
 
 @media (max-height: 600px) {
