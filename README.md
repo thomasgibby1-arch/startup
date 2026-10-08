@@ -46,5 +46,8 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] Use of a imported font
 - [x] Use of different types of selectors including element, class, ID, and pseudo selectors
 
+## React part 1 deliverable
 
-
+- [x] Bundled using Vite
+- [x] Multiple react components that contain my HTML and css
+- [x] React router  
