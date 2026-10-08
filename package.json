@@ -1,0 +1,26 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "https://startup.lifecounter.click/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasgibby1-arch/startup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thomasgibby1-arch/startup/issues"
+  },
+  "homepage": "https://github.com/thomasgibby1-arch/startup#readme",
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
