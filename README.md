@@ -50,4 +50,7 @@ The top right corner is a zoomed in version of what a single player's screen wil
 
 - [x] Bundled using Vite
 - [x] Multiple react components that contain my HTML and css
-- [x] React router  
+- [x] React router
+
+## React part 2 deliverable
+- [x] implement features
