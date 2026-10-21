@@ -1,6 +1,6 @@
 
 export function Coin(){
-    var result = Math.floor(Math.random());
+    var result = Math.floor(Math.random() * 2);
     if (result == 0){
         return "Heads";
     }
@@ -10,6 +10,6 @@ export function Coin(){
 }
 
 export function Die(){
-    var result = Math.floor(Math.random() * 7) + 1;
+    var result = Math.floor(Math.random() * 6) + 1;
     return  result;
 }
