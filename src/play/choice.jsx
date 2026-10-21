@@ -1,30 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import { Die, Coin } from "./dieandcoin";
+import { Die, Coin } from "./dieandcoin";
 import { useState } from "react";
 
-function Coin(){
-    var result = Math.floor(Math.random());
-    if (result == 0){
-        return "Heads";
-    }
-    else {
-        return "Tails";
-    }
-}
-
-function Die(){
-    var result = Math.floor(Math.random() * 7) + 1;
-    return  result;
-}
-
-
-
 export function Choice(props){
-    const {die, setDie} = useState('');
-    const {coin, setCoin} = useState('');
-    const handleDie = () => {Math.floor(Math.random() * 7) + 1};
-    const handleCoin = () => {setCoin(Coin())};
+    const [die, setDie] = useState('');
+    const [coin, setCoin] = useState('');
+    const handleDie = () => {return setDie(Die())};
+    const handleCoin = () => {return setCoin(Coin())};
 
     return (
         <main className='container-fluid bg-secondary text-center'>
@@ -50,7 +33,6 @@ export function Choice(props){
             <div>
                 <button class="btn btn-primary" onClick={handleCoin}>Coin</button>
                 <div>Result: {coin}</div>
-
             </div>
         </div>
         </main>
