@@ -53,4 +53,5 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] React router
 
 ## React part 2 deliverable
-- [x] implement features
+- [x] Multiple react components that implement or mock all app functionality
+- [x] React useState and useEffect hooks
