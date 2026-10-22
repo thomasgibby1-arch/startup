@@ -54,4 +54,4 @@ The top right corner is a zoomed in version of what a single player's screen wil
 
 ## React part 2 deliverable
 - [x] Multiple react components that implement or mock all app functionality
-- [x] React useState (in yugioh.jsx and magic.jsx) and useEffect hooks
+- [x] React useState (in yugioh.jsx and magic.jsx) and useEffect (in players.jsx) hooks
