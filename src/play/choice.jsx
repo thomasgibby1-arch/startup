@@ -11,9 +11,9 @@ export function Choice(props){
 
     return (
         <main className='container-fluid bg-secondary text-center'>
-        <div class="dropdown dropbtn">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Which game would you like to play?</button>
-            <div class="dropdown-item">
+        <div className="dropdown dropbtn">
+            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Which game would you like to play?</button>
+            <div className="dropdown-item">
                 <li className="nav-item">
                     <NavLink className="nav-link" to="yugioh">Yu-Gi-Oh</NavLink>
                 </li>
@@ -27,11 +27,11 @@ export function Choice(props){
         <div>
             <p>Or do you just want to use dice and coin flips?</p>
             <div>
-                <button class="btn btn-primary" onClick={handleDie}>Die</button>
+                <button className="btn btn-primary" onClick={handleDie}>Die</button>
                 <div>Result: {die}</div>
             </div>
             <div>
-                <button class="btn btn-primary" onClick={handleCoin}>Coin</button>
+                <button className="btn btn-primary" onClick={handleCoin}>Coin</button>
                 <div>Result: {coin}</div>
             </div>
         </div>
