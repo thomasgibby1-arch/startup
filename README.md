@@ -46,5 +46,16 @@ The top right corner is a zoomed in version of what a single player's screen wil
 - [x] Use of a imported font
 - [x] Use of different types of selectors including element, class, ID, and pseudo selectors
 
+## React part 1 deliverable
 
+- [x] Bundled using Vite
+- [x] Multiple react components that contain my HTML and css
+- [x] React router
 
+## React part 2 deliverable
+- [x] Multiple react components that implement or mock all app functionality
+- [x] React useState (in yugioh.jsx and magic.jsx) and useEffect (in players.jsx) hooks
+
+## Service deliverable
+- [x] Stores application data in MongoDB
+- [x] Stores and retrieves credentials in MongoDB

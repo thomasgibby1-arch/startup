@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Die, Coin } from "./dieandcoin";
@@ -39,3 +40,46 @@ export function Choice(props){
 
     );
 }
+=======
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { Die, Coin } from "./dieandcoin";
+import { useState } from "react";
+
+export function Choice(props){
+    const [die, setDie] = useState('');
+    const [coin, setCoin] = useState('');
+    const handleDie = () => {return setDie(Die())};
+    const handleCoin = () => {return setCoin(Coin())};
+
+    return (
+        <main className='container-fluid bg-secondary text-center'>
+        <div className="dropdown dropbtn">
+            <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Which game would you like to play?</button>
+            <div className="dropdown-item">
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="yugioh">Yu-Gi-Oh</NavLink>
+                </li>
+            </div>
+            <div class="dropdown-item">
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="magic">Magic: the Gathering</NavLink>
+                </li>
+            </div>
+        </div>
+        <div>
+            <p>Or do you just want to use dice and coin flips?</p>
+            <div>
+                <button className="btn btn-primary" onClick={handleDie}>Die</button>
+                <div>Result: {die}</div>
+            </div>
+            <div>
+                <button className="btn btn-primary" onClick={handleCoin}>Coin</button>
+                <div>Result: {coin}</div>
+            </div>
+        </div>
+        </main>
+
+    );
+}
+>>>>>>> 2f435e82571a93f3f1fd9d80f3ba940364a253cd
