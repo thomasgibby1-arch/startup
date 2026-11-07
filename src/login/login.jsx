@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 
 import { Unauthenticated } from './unauthenticated';
@@ -25,31 +24,3 @@ export function Login({ userName, authState, onAuthChange }) {
     </main>
   );
 }
-=======
-import React from 'react';
-
-import { Unauthenticated } from './unauthenticated';
-import { Authenticated } from './authenticated';
-import { AuthState } from './authState';
-
-export function Login({ userName, authState, onAuthChange }) {
-  return (
-    <main className='container-fluid bg-secondary text-center'>
-      <div>
-        {authState !== AuthState.Unknown && <h1>Welcome to Life Counter</h1>}
-        {authState === AuthState.Authenticated && (
-          <Authenticated userName={userName} onLogout={() => onAuthChange(userName, AuthState.Unauthenticated)} />
-        )}
-        {authState === AuthState.Unauthenticated && (
-          <Unauthenticated
-            userName={userName}
-            onLogin={(loginUserName) => {
-              onAuthChange(loginUserName, AuthState.Authenticated);
-            }}
-          />
-        )}
-      </div>
-    </main>
-  );
-}
->>>>>>> 2f435e82571a93f3f1fd9d80f3ba940364a253cd
