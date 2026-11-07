@@ -1,0 +1,17 @@
+{
+  "name": "Life-counter",
+  "version": "1.0.0",
+  "description": "Keeps track of 'life points' (idr what they call it in magic)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "BYU",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "uuid": "^11.0.5"
+  }
+}
